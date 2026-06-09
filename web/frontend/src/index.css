@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for report tabs */
+.scrollbar-none { scrollbar-width: none; }
+.scrollbar-none::-webkit-scrollbar { display: none; }
+
+/* JetBrains Mono for monospaced elements */
+.font-mono { font-family: 'JetBrains Mono', ui-monospace, monospace; }

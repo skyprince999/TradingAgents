@@ -5,6 +5,7 @@ services:
       - .env
     volumes:
       - tradingagents_data:/home/appuser/.tradingagents
+      - ./reports:/reports
     tty: true
     stdin_open: true
 
